@@ -5,11 +5,266 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Clutch Aesthetic</title>
-
   <link rel="stylesheet" href="favicon.ico">
+
+  <!-- OWL CAROUSEL -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- FONT AWESOME CSS -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Montserrat:wght@100;300;400;500;700;900&family=Quicksand:wght@300;400;700&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
-  Hello
+  <nav class="navbar contain">
+    <div class="navbar-cart">
+      <i class="fas fa-shopping-cart"></i>
+    </div>
+    <div class="navbar-logo">
+        <img src="img/Logo-white.png" alt="Clutch Logo">
+    </div>
+
+
+      <div class="navbar-toggle">
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars hamburger"></i>
+        </label>
+        <ul class="navbar-list">
+          <li class="navbar-list__item"><a href="index.html">Home</a></li>
+          <li class="navbar-list__item"><a href="about.html">About Us</a></li>
+          <li class="navbar-list__item"><a href="products.html">Products</a></li>
+          <li class="navbar-list__item"><a href="contact.html">Contact</a></li>
+          <li class="navbar-list__item"><a href="faq.html">FAQ</a></li>
+        </ul>
+      </div>
+  </nav>
+
+<!-- MAIN SECTION START -->
+  <div class="main-section">
+      <div class="main-section__img">
+          <img src="img/main-img-sm.jpg" 
+          srcset="img/main-img-sm.jpg 550w,
+                  img/main-img-md.jpg 1200w,
+                  img/main-img-lg.jpg 1600w" 
+          alt="">
+          <div class="overlay"></div>
+      </div>
+      <div class="main-section__desc">
+        <h1 class="main-header">Urban Fashion Brand</h1>
+        <h2 class="sub-header">Made In Nepal</h2>
+        <a href="#" class="btn">Shop Now</a>
+      </div>
+  </div>
+<!-- MAIN SECTION END -->
+
+<!-- ABOUT SECTIONS START -->
+<div class="about contain">
+  <h2 class="header-2 mb-1">About Us</h2>
+  <p class="p3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque dolor ex quaerat consectetur reprehenderit, dolores modi minus maiores unde in voluptate eos perspiciatis quod! Eaque veniam earum aliquam suscipit quisquam.</p>
+</div>
+<!-- ABOUT SECTIONS END -->
+
+<div class="products contain">
+  <div class="products-item">
+    <div class="products-item__img">
+      <img src="img/trucker-le.png" alt="">
+      <div class="item-discount">
+        <span>20% OFF</span>
+      </div>
+    </div>
+    <div class="products-item__desc">
+      <h4 class="header-3">Limited Edition Trucker</h4>
+      <p class="p3">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus dolorum ullam architecto assumenda tempora quia consectetur, ipsa at officiis, sapiente doloribus sunt, quidem laboriosam corrupti quod molestiae. Saepe, voluptatum corporis.
+      </p>
+      <div class="products-item__order">
+        <span class="price">Rs. 3500/-</span>
+        <a href="#" class="btn-reverse">Add To Cart</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="products-item">
+    <div class="products-item__img">
+      <img src="img/tribal.jpg" alt="">
+      <div class="item-discount">
+        <span>20% OFF</span>
+      </div>
+    </div>
+    <div class="products-item__desc">
+      <h4 class="header-3">Tribal Bomber Jacket</h4>
+      <p class="p3">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus dolorum ullam architecto assumenda tempora quia consectetur, ipsa at officiis, sapiente doloribus sunt, quidem laboriosam corrupti quod molestiae. Saepe, voluptatum corporis.
+      </p>
+      <div class="products-item__order">
+        <span class="price">Rs. 3500/-</span>
+        <a href="#" class="btn-reverse">Add To Cart</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="products-item">
+    <div class="products-item__img">
+      <img src="img/dress.jpg" alt="">
+      <div class="item-discount">
+        <span>20% OFF</span>
+      </div>
+    </div>
+    <div class="products-item__desc">
+      <h4 class="header-3">Black Sun Dress</h4>
+      <p class="p3">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus dolorum ullam architecto assumenda tempora quia consectetur, ipsa at officiis, sapiente doloribus sunt, quidem laboriosam corrupti quod molestiae. Saepe, voluptatum corporis.
+      </p>
+      <div class="products-item__order">
+        <span class="price">Rs. 2500/-</span>
+        <a href="#" class="btn-reverse">Add To Cart</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="products-item">
+    <div class="products-item__img">
+      <img src="img/blazer.png" alt="Blazer">
+      <div class="item-discount">
+        <span>20% OFF</span>
+      </div>
+    </div>
+    <div class="products-item__desc">
+      <h4 class="header-3">Summer Blazer</h4>
+      <p class="p3">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus dolorum ullam architecto assumenda tempora quia consectetur, ipsa at officiis, sapiente doloribus sunt, quidem laboriosam corrupti quod molestiae. Saepe, voluptatum corporis.
+      </p>
+      <div class="products-item__order">
+        <span class="price">Rs. 3000/-</span>
+        <a href="#" class="btn-reverse">Add To Cart</a>
+      </div>
+    </div>
+  </div>
+
+</div>
+<!-- PRODUCTS SECTION END -->
+
+<!-- <div class="other-products__carousel">
+  <div class="carousel-img">
+    <img src="img/carousel-img.jpg" alt="">
+    </div>
+    <div class="carousel-desc">
+      <a href="#" class="btn">Add To Cart</a>
+    </div>
+  </div> -->
+
+  <div class="other-products contain">
+    <h2 class="header-2 mb-1">Other Products</h2>
+
+  
+  <div class="owl-carousel owl-theme">
+    <div class="item">
+      <div class="carousel-img">
+        <img src="img/carousel-img.jpg" alt="">
+        </div>
+        <div class="carousel-desc">
+          <a href="#" class="btn">Add To Cart</a>
+        </div>
+    </div>
+
+    <div class="item">
+      <div class="other-products__carousel">
+        <img src="img/carousel-img.jpg" alt="">
+        </div>
+        <div class="carousel-desc">
+          <a href="#" class="btn">Add To Cart</a>
+        </div>
+    </div>
+
+    <div class="item">
+      <div class="carousel-img">
+        <img src="img/carousel-img.jpg" alt="">
+        </div>
+        <div class="carousel-desc">
+          <a href="#" class="btn">Add To Cart</a>
+        </div>
+    </div>
+
+    <div class="item">
+      <div class="carousel-img">
+        <img src="img/carousel-img.jpg" alt="">
+        </div>
+        <div class="carousel-desc">
+          <a href="#" class="btn">Add To Cart</a>
+        </div>
+    </div>
+    <div class="item">
+      <div class="carousel-img">
+        <img src="img/carousel-img.jpg" alt="">
+        </div>
+        <div class="carousel-desc">
+          <a href="#" class="btn">Add To Cart</a>
+        </div>
+    </div>
+  </div>
+
+</div>
+
+
+
+
+<!-- FOOTER START -->
+<footer class="footer">
+  <div class="newsletter">
+    <h3>Sign up to our Newsletter</h3>
+    <p>Get all the updates about Clutch</p>
+    <form action="submit" class="newsletter-form">
+      <input type="text" placeholder="Enter your email address">
+      <button class="btn">Subscribe</button>
+    </form>
+  </div>
+  <div class="footer-socials">
+    <a href="#" class="socials"><i class="fab fa-instagram"></i></a>
+    <a href="#" class="socials"><i class="fab fa-facebook-square"></i></a>
+    <a href="#" class="socials"><i class="fab fa-twitter-square"></i></a>
+  </div>
+  <div class="footer-nav">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+    </ul>
+  </div>
+  <span>COPYRIGHTS BY CLUTCH 2021</span>
+</footer>
+
+<!-- JQUERY -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- OWN CAROUSEL -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script>
+  $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    autoplay:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:3
+        }
+    }
+})
+</script>
 </body>
 </html>

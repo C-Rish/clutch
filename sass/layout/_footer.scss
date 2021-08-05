@@ -1,0 +1,84 @@
+.footer {
+    background-color: $color-black;
+    color: $color-white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem 0;
+    
+    .newsletter {
+        font-family: 'Abril Fatface', cursive;
+        letter-spacing: .1rem;
+        font-size: 3rem;
+        line-height: 1.3;
+
+        h3{
+            font-size: 5vw;
+            max-width: 80rem;
+            margin: 0 auto;
+        }
+        
+        p {
+            font-family: 'Quicksand', sans-serif;
+            font-weight: 500;
+            margin:1rem auto;
+            font-size: 3vw;
+            max-width: 60rem;
+        }
+        
+        &-form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+            
+            input {
+                font-family: 'Quicksand', sans-serif;
+                background-color: $color-white;
+                border: none;
+                width: 70%;
+                max-width: 60rem ;
+                padding: 1.5rem .5rem;
+                margin: 0 auto;
+            }
+        }
+    }
+
+    &-socials {
+        font-size: 4rem;
+        margin: 0 auto;
+        a {
+            color: $color-white;
+            padding: 0 1.5rem;
+        }
+        a:hover {
+            color: $color-grey;
+        }
+    }// Socials END
+    
+    &-nav {
+        a{
+            color: $color-white;
+            font-size: 2rem;
+        }
+        
+        a:hover {
+            color: $color-grey;
+        }
+
+        ul {
+            padding: 0;
+        }
+
+        @media screen and (min-width:600px) {
+            ul {
+                display: flex;
+                justify-content: space-around;
+                max-width: 80rem;
+                margin: 0 auto;
+            }
+        }
+
+    }
+} // FOOTER END

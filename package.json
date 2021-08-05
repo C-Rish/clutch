@@ -1,13 +1,21 @@
 {
-  "name": "studio-matrix",
+  "name": "clutch",
   "version": "1.0.0",
-  "description": "",
+  "description": "clutch e commerce site",
   "main": "index.js",
   "scripts": {
     "start": "node-sass sass/main.scss styles/styles.css -w"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/C-Rish/clutch.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/C-Rish/clutch/issues"
+  },
+  "homepage": "https://github.com/C-Rish/clutch#readme",
   "devDependencies": {
     "node-sass": "^6.0.1"
   }
